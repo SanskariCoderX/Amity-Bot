@@ -1,6 +1,6 @@
 // Import necessary classes from discord.js
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
-const token = process.env.DISCORD_TOKEN || require('./config.json').token;
+const token = process.env.DISCORD_TOKEN;
   // Import the bot token from config.json
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const fs = require('fs');
